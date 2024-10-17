@@ -17,7 +17,7 @@ const ButtonPanel = ({ handleClick }) => {
           key={index} 
           label={button} 
           handleClick={handleClick} 
-          className={button === '=' ? 'equal' : ''}  
+          className={button === '=' ? 'equal' : button === 'C' ? 'clear' : ''}  
         />
       ))}
     </div>
