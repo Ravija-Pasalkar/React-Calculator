@@ -2,50 +2,48 @@ h1 {
   text-align: center;
   font-size: 4.5rem;
 }
+
 .calculator {
-  width: 80%; /* Set width to 80% of the parent container */
-  max-width: 400px; /* Set a maximum width for larger screens */
-  margin: 100px auto; /* Center the calculator horizontally */
+  width: 80%; 
+  max-width: 400px; 
+  margin: 100px auto; 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f1f1f1;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-  text-align: center; /* Center content within the calculator */
+  text-align: center; 
 }
 
-/* Display Styles */
 .display {
-  height: 60px; /* Increased height for better visibility */
+  height: 60px; 
   margin-bottom: 10px;
   padding: 10px;
   background-color: white;
   border: 1px solid #ccc;
-  font-size: 2rem; /* Increased font size for better visibility */
+  font-size: 2rem;
   text-align: right;
   border-radius: 4px;
 }
 
-/* Button Panel Styles */
 .button-panel {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 columns for buttons */
-  grid-gap: 10px; /* Space between buttons */
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 10px;
 }
 
-/* Button Styles */
 .button {
   padding: 20px;
-  font-size: 1.5rem; /* Adjust font size for visibility */
+  font-size: 1.5rem; 
   background-color: #e0e0e0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
-  height: 60px; /* Set a fixed height for buttons */
-  display: flex; /* Flexbox for centering text */
-  justify-content: center; /* Center text horizontally */
-  align-items: center; /* Center text vertically */
+  height: 60px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .button:hover {
@@ -56,17 +54,16 @@ h1 {
   background-color: #ccc;
 }
 
-/* Equal button styling */
 .button.equal {
-  grid-column: span 2; /* Span across two columns */
+  grid-column: span 2; 
   background-color: #f39c12;
   color: white;
 }
 
 .button.equal:hover {
-  background-color: #e67e22; /* Lighter color on hover */
+  background-color: #e67e22;
 }
 
 .button.equal:active {
-  background-color: #d35400; /* Darker color when active */
+  background-color: #d35400; 
 }
